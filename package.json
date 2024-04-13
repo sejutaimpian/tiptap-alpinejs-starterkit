@@ -1,0 +1,25 @@
+{
+  "name": "tiptap-alpinejs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tail": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.12",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@tiptap/core": "^2.3.0",
+    "@tiptap/pm": "^2.3.0",
+    "@tiptap/starter-kit": "^2.3.0",
+    "alpinejs": "^3.13.8"
+  }
+}
